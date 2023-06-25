@@ -1,4 +1,4 @@
-package multithreading_java;
+package javamultithreading;
 
 class SetThreadNameThread extends Thread{
     public void run(){

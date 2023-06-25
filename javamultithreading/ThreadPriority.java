@@ -1,4 +1,4 @@
-package multithreading_java;
+package javamultithreading;
 
 class ThreadPriorityThread extends Thread{
     @Override

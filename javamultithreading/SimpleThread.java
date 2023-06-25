@@ -1,4 +1,4 @@
-package multithreading_java;
+package javamultithreading;
 
 class SimpleThreadThread extends Thread{
 

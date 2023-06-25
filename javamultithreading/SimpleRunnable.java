@@ -1,4 +1,4 @@
-package multithreading_java;
+package javamultithreading;
 
 class SimpleRunnableThread implements Runnable{
     public void run(){

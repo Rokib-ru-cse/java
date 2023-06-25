@@ -1,4 +1,4 @@
-package multithreading_java;
+package javamultithreading;
 
 class HelloSynchronized {
     public synchronized void hello() {
