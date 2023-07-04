@@ -4,11 +4,12 @@ public class Youtube {
 
     public static void main(String[] args) {
         Subject telesku = new Channel();
+
         Subscriber s1 = new Subscriber("rokib");
         Subscriber s2 = new Subscriber("shadin");
-        Subscriber s3 = new Subscriber("a");
-        Subscriber s4 = new Subscriber("cvc");
-        Subscriber s5 = new Subscriber("fdf");
+        Subscriber s3 = new Subscriber("subscriber one");
+        Subscriber s4 = new Subscriber("subscriber two");
+        Subscriber s5 = new Subscriber("subscriber three");
 
         telesku.subscribe(s1);
         telesku.subscribe(s2);

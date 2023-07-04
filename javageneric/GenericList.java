@@ -17,6 +17,7 @@ public class GenericList <T> implements Comparable<GenericList>{
 
     @Override
     public int compareTo(GenericList o) {
-        return this.value.compareTo(o.value);
+        //return this.value.compareTo(o.value);
+        return 0;
     }
 }

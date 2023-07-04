@@ -1,12 +1,14 @@
 package designpattern.observer.telusko;
 
 
+import java.util.ArrayList;
+import java.util.List;
 
 public class Subscriber implements Observer {
 
     private String name;
 
-    private Subject channel = new Channel();
+    private List<Subject> channel = new ArrayList<>();
 
     public Subscriber(String name) {
         this.name = name;
@@ -19,7 +21,7 @@ public class Subscriber implements Observer {
 
     @Override
     public void subscribeChannel(Subject ch){
-        channel = ch;
+        channel.add(ch);
     }
 
 }
