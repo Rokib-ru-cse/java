@@ -1,5 +1,7 @@
 package array;
 
+import print.PrintList;
+
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -14,9 +16,9 @@ public class ArrayToList {
         List<Integer> list2 = List.of(Arrays.stream(array2).boxed().toArray(Integer[]::new));
         int[] array3 = {1, 2, 3, 4, 5};
         List<Integer> list3 = IntStream.of(array3).boxed().collect(Collectors.toList());
-
-
-
+        PrintList.print(list1);
+        PrintList.print(list2);
+        PrintList.print(list3);
 
     }
 }
