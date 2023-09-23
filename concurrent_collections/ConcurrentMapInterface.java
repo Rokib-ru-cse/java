@@ -6,6 +6,13 @@ import java.util.concurrent.ConcurrentMap;
 public class ConcurrentMapInterface {
 
     public static void main(String[] args) {
+        /*
+        * there are 3 extra method in ConcurrentMap
+        * putIfAbsent
+        * replace
+        * remove
+        *
+        * */
         ConcurrentMap<Integer,Integer> concurrentMap = new ConcurrentHashMap<>();
         concurrentMap.putIfAbsent(1,1);
         concurrentMap.putIfAbsent(1,2);
