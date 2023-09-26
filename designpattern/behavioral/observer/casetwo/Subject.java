@@ -1,4 +1,4 @@
-package designpattern.behavioral.observer.telusko;
+package designpattern.behavioral.observer.casetwo;
 
 public interface Subject {
     void subscribe(Subscriber subscriber);

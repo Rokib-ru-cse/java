@@ -1,4 +1,4 @@
-package designpattern.behavioral.observer.telusko;
+package designpattern.behavioral.observer.casetwo;
 
 
 import java.util.ArrayList;

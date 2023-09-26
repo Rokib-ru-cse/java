@@ -1,4 +1,4 @@
-package designpattern.behavioral.observer.geekific;
+package designpattern.behavioral.observer.caseone;
 
 public class EmailMsgListener {
 
