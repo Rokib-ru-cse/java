@@ -1,4 +1,4 @@
-package designpattern.observer.telusko;
+package designpattern.behavioral.observer.telusko;
 
 public interface Subject {
     void subscribe(Subscriber subscriber);

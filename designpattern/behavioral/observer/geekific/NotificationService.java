@@ -1,4 +1,4 @@
-package designpattern.observer.geekific;
+package designpattern.behavioral.observer.geekific;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package designpattern.observer.teluskotest;
+package designpattern.behavioral.observer.teluskotest;
 
 public interface Observable {
 
