@@ -12,7 +12,7 @@ class Reflection {
         Field field = main.getClass().getDeclaredField("data");
         field.setAccessible(true);
         System.out.println("Previous value : " + field.get(main));
-        field.set(main,20);
+        field.set(main,30);
         System.out.println("Current value : " + field.get(main));
     }
 }
