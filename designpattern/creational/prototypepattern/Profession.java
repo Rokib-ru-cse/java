@@ -1,4 +1,4 @@
-package designpattern.prototypepattern;
+package designpattern.creational.prototypepattern;
 
 public abstract class Profession implements Cloneable {
 

@@ -1,4 +1,4 @@
-package designpattern.factorypattern;
+package designpattern.creational.factorypattern;
 
 public class FactoryPatternMainClass {
 
