@@ -6,5 +6,7 @@ public class Main {
         PaymentService paymentService = new PaymentService();
         paymentService.setPaymentStrategy(new PaymentByCreditCard());
         paymentService.processOrder();
+        String string = ""
+                ;
     }
 }
